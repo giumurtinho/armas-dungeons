@@ -1,0 +1,98 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    display: flex;
+    height: 340px;
+}
+.banner {
+    width: 100%;
+    height: 340px;
+    position: absolute;
+}
+.logo {
+    position: absolute;
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 40px 0 0 0;
+    color: rgb(0, 0, 0);
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    margin: 10px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.armas-itens {
+    width: 25%; 
+    margin: 10px 10px 15px 10px;
+    text-align: center;
+	box-shadow: 4px 4px 6px #000000;
+    padding: 1%;
+}
+.armas-itens:hover {
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+} 
+.armas-itens > h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.armas-itens > img {
+    width: auto;
+    align-items: center;
+    padding: 10px;
+}
+.armas-itens > p > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: inherit;
+    vertical-align: sub;
+}
+.armas-itens > p > a:hover {
+    font-size: 25px;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+    cursor: pointer;
+}
+#arma-img {
+    width: 40%;
+}
+.rodape {
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    
+header {
+        display: flex;
+        height: 360px;
+}  
+.logo {
+    align-items: center;
+    height: 300px;
+}  
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    margin: 10px;
+    justify-content: center;
+}
+.armas-itens > h3 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+#rodape {
+    width: 100vw;
+}
+
+
+}
